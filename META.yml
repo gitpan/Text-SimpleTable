@@ -1,6 +1,6 @@
 ---
 name: Text-SimpleTable
-version: 0.01
+version: 0.02
 author:
   - 'Sebastian Riedel, C<sri@oook.de>'
 abstract: Simple Eyecandy ASCII Tables
@@ -8,5 +8,5 @@ license: perl
 provides:
   Text::SimpleTable:
     file: lib/Text/SimpleTable.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.2611

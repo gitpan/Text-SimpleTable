@@ -2,7 +2,7 @@ package Text::SimpleTable;
 
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our $TOP_LEFT      = '.-';
 our $TOP_BORDER    = '-';
@@ -235,12 +235,15 @@ sub draw {
 sub _wrap {
     my ( $self, $text, $width ) = @_;
     my @cache;
-    while ( length $text > $width ) {
-        my $subtext;
-        $subtext = substr $text, 0, $width - length($WRAP), '';
-        push @cache, "$subtext$WRAP";
+    my @parts = split "\n", $text;
+    for my $part (@parts) {
+        while ( length $part > $width ) {
+            my $subtext;
+            $subtext = substr $part, 0, $width - length($WRAP), '';
+            push @cache, "$subtext$WRAP";
+        }
+        push @cache, $part if $part;
     }
-    push @cache, $text if $text;
     return \@cache;
 }
 
