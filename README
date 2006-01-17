@@ -13,6 +13,7 @@ SYNOPSIS
         | arbaz | ada        |
         '-------+------------'
 
+
         my $t2 = Text::SimpleTable->new( [ 5, 'Foo' ], [ 10, 'Bar' ] );
         $t2->row( 'foobarbaz', 'yadayadayada' );
         $t2->row( 'barbarbarbarbar', 'yada' );

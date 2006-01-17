@@ -2,7 +2,7 @@ package Text::SimpleTable;
 
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 our $TOP_LEFT      = '.-';
 our $TOP_BORDER    = '-';
@@ -201,7 +201,8 @@ sub draw {
         for my $j ( 0 .. $columns ) {
             my $column = $self->{columns}->[$j];
             my $width  = $column->[0];
-            my $text   = $column->[1]->[$i] || '';
+            my $text
+                = ( defined $column->[1]->[$i] ) ? $column->[1]->[$i] : '';
             $text = sprintf "%-${width}s", $text;
             if ( ( $j == 0 ) && ( $columns == 0 ) ) {
                 $text = "$LEFT_BORDER$text$RIGHT_BORDER";
@@ -242,7 +243,7 @@ sub _wrap {
             $subtext = substr $part, 0, $width - length($WRAP), '';
             push @cache, "$subtext$WRAP";
         }
-        push @cache, $part if $part;
+        push @cache, $part if defined $part;
     }
     return \@cache;
 }
