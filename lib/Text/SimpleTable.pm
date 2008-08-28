@@ -2,7 +2,7 @@ package Text::SimpleTable;
 
 use strict;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 our $TOP_LEFT      = '.-';
 our $TOP_BORDER    = '-';
@@ -256,7 +256,7 @@ L<Catalyst>
 
 =head1 AUTHOR
 
-Sebastian Riedel, C<sri@oook.de>
+Sebastian Riedel, C<sri@cpan.org>
 
 =head1 COPYRIGHT
 
