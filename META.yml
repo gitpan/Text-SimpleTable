@@ -1,8 +1,12 @@
 --- #YAML:1.0
-name: Text-SimpleTable
-version: 0.03
-author:
-  - Sebastian Riedel, C<sri@oook.de>
-abstract: Simple Eyecandy ASCII Tables
-license: perl
-generated_by: Module::Build version 0.2611, without YAML.pm
+name:                Text-SimpleTable
+version:             0.04
+abstract:            ~
+license:             ~
+author:              ~
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

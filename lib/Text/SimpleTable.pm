@@ -2,7 +2,7 @@ package Text::SimpleTable;
 
 use strict;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 our $TOP_LEFT      = '.-';
 our $TOP_BORDER    = '-';

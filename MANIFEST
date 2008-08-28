@@ -1,11 +1,10 @@
-Build.PL
 Changes
 lib/Text/SimpleTable.pm
+Makefile.PL
 MANIFEST			This list of files
+META.yml
+README
 t/01use.t
 t/02pod.t
 t/03podcoverage.t
 t/04tables.t
-META.yml
-Makefile.PL
-README
