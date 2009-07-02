@@ -1,9 +1,10 @@
 --- #YAML:1.0
 name:                Text-SimpleTable
-version:             0.05
+version:             1.0
 abstract:            ~
 license:             ~
-author:              ~
+author:              
+    - Sebastian Riedel <sri@cpan.org>
 generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
