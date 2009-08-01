@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Text-SimpleTable
-version:            1.5
+version:            1.6
 abstract:           Simple eyecandy ASCII tables
 author:
     - Sebastian Riedel <sri@cpan.org>
