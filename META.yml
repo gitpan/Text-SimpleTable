@@ -1,10 +1,10 @@
 --- #YAML:1.0
 name:               Text-SimpleTable
-version:            1.6
+version:            1.7
 abstract:           Simple eyecandy ASCII tables
 author:
     - Sebastian Riedel <sri@cpan.org>
-license:            perl
+license:            artistic_2
 distribution_type:  module
 configure_requires:  {}
 build_requires:  {}
