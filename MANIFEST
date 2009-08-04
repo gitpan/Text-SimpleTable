@@ -1,5 +1,6 @@
 .perltidyrc
 Changes
+examples/simple.pl
 lib/Text/SimpleTable.pm
 LICENSE
 Makefile.PL
