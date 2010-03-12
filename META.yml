@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Text-SimpleTable
-version:            2.02
+version:            2.03
 abstract:           Simple eyecandy ASCII tables
 author:
     - Sebastian Riedel <sri@cpan.org>
@@ -20,7 +20,7 @@ no_index:
         - t
         - inc
         - t
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.54
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
